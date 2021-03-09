@@ -1,0 +1,221 @@
+body {
+	font-family: Arial, sans-serif;
+	padding: 0;
+	margin: 0;
+	background: url(../img/3.jpg)  center top / cover;
+	background-repeat: repeat-y;
+}
+/* 
+* {
+	 border: 1px solid red;
+}    все элементы будут с рамкой               
+ */
+
+
+.clearfix:after  {
+	content: '';
+	display: table;
+	width: 100;
+	clear: both;
+
+}
+/*display:block; превращает строчный елемент в блочный
+ширина строчного равна ширине контента внутри
+ширина блочного равна ширине 100%  свободного пространства на экране
+display:inline; превращает блочный елемент в строчный*/
+
+
+div {
+	box-sizing: border-box;
+
+}
+/*box-sizing: border-box   чтобы контейнер 
+не увеличивался в размерах. чобы не учитывать padding
+при увеличении длинны и высоты*/
+a {
+		color: yellow;
+}
+
+header {
+	/*background: url(../img/first-bg.jpg) no-repeat center top / cover;*/
+	
+	padding-bottom: 100px;
+}
+/*no-repeat-не дает картинке дублировать себя из за растягивания*/
+/*cover-картинка растягивается на всю ширину*/
+
+.container{
+	width: 100%;
+	
+	margin: 0 auto;
+}
+
+.logo{
+height: 150px;
+margin-top: 0px;
+float: left;
+
+}
+
+.test {
+	width: 500px;
+	height: 100px;
+	background: #fff;
+	border: 1px solid red;
+	padding: 20px 50px 20px 60px;
+	margin: 20px;
+}
+/*padding - отступ внутрь контейнера.
+отступ идет почасовой начиная сверху*/
+/*margin-отступ наружу */
+
+nav {
+	float: right;
+	margin-top: 30px;
+
+}
+/*float  - присосаться к левому или правому краю*/
+
+.menu {
+	padding: 0;
+	margin: 0;
+	display: block;
+}
+.menu li {
+	float: left;
+	display: block;
+	margin-right: 40px;
+}
+.menu li a {
+	color: red;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 15px;
+
+}
+
+   /*text-decoration: none  
+   отменяет подчеркивание ссылок
+   text-transform: uppercase;-сделать все буквы большие*/
+
+.titles_first {
+	font-size: 20px;
+	color: black;
+	text-transform: uppercase;
+	text-align: center;
+	margin-top: 200px;
+    margin-bottom: 200px;
+	
+}
+/*text-align: center;  ровняет 
+текстовый блок по центру или left right*/
+
+h3 {
+	font-size: 30px;
+	color: red;
+	text-transform: uppercase;
+	text-align: center;
+
+}
+
+.button {
+	background: #fed136;
+	color: red;
+	border-radius: 15px;
+	/*border-radius: закругление*/
+	display: block;
+	width: 500px;
+	padding: 20px 0;
+	margin: 0 auto;
+	text-decoration: none;
+	text-align: center;
+	text-transform: uppercase;
+	font-weight: bold;
+	font-size: 18px;
+	margin-top: 30px;
+}
+
+.title {
+	padding-top: 115px;
+	
+
+}
+
+.title h2 {
+	font-size: 40px;
+	font-weight: bold;
+	text-align: center;
+	text-transform: uppercase;
+	margin: 0;
+
+}
+
+.title p {
+	color: blue;
+	font-size: 15px;
+	text-align: center;
+	margin: 0;
+	
+
+}
+
+.services {
+	margin-top: 50px;
+
+}
+
+.services_item {
+	width: 33%;
+	float: left;
+	text-align: center;
+    
+
+}
+
+.services_item h3 {
+	font-size: 18px;
+	margin: 0;
+}
+
+
+
+.services_item p {
+	color: red;
+	font-size: 14px;
+	line-height: 1.55em;
+}
+/*line-height: 1.55em; межстрочный интервал 
+в универсальных единицах измерения*/
+
+
+.services_item:last-child {
+	float: right;
+    
+}
+/*обращение только к последнему блоку 
+cervices_item из всех блоков*/
+
+.services_item:nth-child(2) {
+	margin-left:   ;
+
+}
+
+
+
+#services {
+	padding-bottom: 120px;
+
+}
+
+
+#portfolio {
+	
+
+}
+
+#portfolio p {
+	font-size: 30px;
+	margin-top: 50px;
+	margin-bottom: 100px;
+	color: black;
+}
