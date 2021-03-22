@@ -1,0 +1,4 @@
+SHELL=/bin/sh
+PATH=/usr/local/sbin:/usr/local/bin:/sbin:/bin:/usr/sbin:/usr/bin
+
+*/59 * * * * ubuntu /usr/bin/flock -u -w 0 /tmp/.process_new_files.lock  /var/www/html/jobs.sh
