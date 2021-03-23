@@ -2,8 +2,6 @@
 
 
 BUCKET=/home/ubuntu/aws_bucket
-WORK_DIR=/home/ubuntu/GaussFiles
-TOOL=/home/ubuntu/tools
 
 
 
